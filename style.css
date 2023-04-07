@@ -1,0 +1,161 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Container for the page content */
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  /* Footer section */
+  .footer {
+    background: #24262b;
+    padding: 70px 0;
+  }
+  
+  /* Flexbox layout for footer columns */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual footer column */
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  /* Heading for footer column */
+  .footer-col h4 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  /* Underline effect for footer column heading */
+  .footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #ffc500;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  /* Unordered list for footer column */
+  .footer-col ul {
+    list-style: none;
+  }
+  
+  /* Links within unordered list for footer column */
+  .footer-col ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    transform: all .3s ease;
+  }
+  
+  /* Hover effect for links within footer column */
+  .footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 6px;
+  }
+  
+  /* Social media links within footer column */
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, .2);
+    margin: 0 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all .5s ease;
+  }
+  
+  /* Hover effect for social media links */
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background: #fff;
+  }
+  
+  /* Responsive styles for footer columns */
+  @media (max-width: 767px) {
+    .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Styling for sections */
+  section {
+    
+    
+  }
+  
+  section h1 {
+    text-decoration: dotted;
+    transform: all .3s ease;
+    text-align: center;
+  }
+  
+  /* Styling for navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  /* Flexbox layout for navigation links */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styling for navigation links */
+  
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Hover effect for navigation links */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .video-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .video-container iframe {
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
+  @media(max-width: 767px) {
+    .video-container iframe {
+      width: 100%;
+    }
+  }
+  
+  
